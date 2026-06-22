@@ -1,0 +1,119 @@
+[
+  {
+    "id": "rel.isuret.level.caput_mortum.next.entropy",
+    "from": "isuret.level.caput_mortum",
+    "relation": "next_level",
+    "to": "isuret.level.entropy",
+    "weight": 1.0,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.entropy.next.physical",
+    "from": "isuret.level.entropy",
+    "relation": "next_level",
+    "to": "isuret.level.physical",
+    "weight": 1.0,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.physical.next.vital",
+    "from": "isuret.level.physical",
+    "relation": "next_level",
+    "to": "isuret.level.vital",
+    "weight": 1.0,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.vital.next.bioenergetic",
+    "from": "isuret.level.vital",
+    "relation": "next_level",
+    "to": "isuret.level.bioenergetic",
+    "weight": 1.0,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.bioenergetic.next.etheric",
+    "from": "isuret.level.bioenergetic",
+    "relation": "next_level",
+    "to": "isuret.level.etheric",
+    "weight": 1.0,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.etheric.next.quantum",
+    "from": "isuret.level.etheric",
+    "relation": "next_level",
+    "to": "isuret.level.quantum",
+    "weight": 1.0,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.quantum.next.aether",
+    "from": "isuret.level.quantum",
+    "relation": "next_level",
+    "to": "isuret.level.aether",
+    "weight": 1.0,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.aether.next.astral",
+    "from": "isuret.level.aether",
+    "relation": "next_level",
+    "to": "isuret.level.astral",
+    "weight": 1.0,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.astral.next.psychic",
+    "from": "isuret.level.astral",
+    "relation": "next_level",
+    "to": "isuret.level.psychic",
+    "weight": 1.0,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.psychic.next.mental",
+    "from": "isuret.level.psychic",
+    "relation": "next_level",
+    "to": "isuret.level.mental",
+    "weight": 1.0,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.mental.next.archetypal",
+    "from": "isuret.level.mental",
+    "relation": "next_level",
+    "to": "isuret.level.archetypal",
+    "weight": 1.0,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.archetypal.next.causal",
+    "from": "isuret.level.archetypal",
+    "relation": "next_level",
+    "to": "isuret.level.causal",
+    "weight": 1.0,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.causal.next.noetic",
+    "from": "isuret.level.causal",
+    "relation": "next_level",
+    "to": "isuret.level.noetic",
+    "weight": 1.0,
+    "status": "ACTIVE",
+    "data": {}
+  }
+]
