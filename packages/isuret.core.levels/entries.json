@@ -1,0 +1,270 @@
+[
+  {
+    "id": "isuret.level.caput_mortum",
+    "type": "LEVEL",
+    "key": "CAPUT_MORTUM",
+    "name": "Caput Mortum",
+    "description": "The inert residue of a process; exhausted matter, dead weight, ash, waste, or energetic blockage.",
+    "status": "ACTIVE",
+    "language": "en",
+    "aliases": [],
+    "tags": ["residue", "blockage", "inert"],
+    "data": {
+      "rank": 10,
+      "radionicInfluence": true
+    },
+    "source": {
+      "type": "author",
+      "reference": "Original classification by package author."
+    }
+  },
+  {
+    "id": "isuret.level.entropy",
+    "type": "LEVEL",
+    "key": "ENTROPY",
+    "name": "Entropy",
+    "description": "The tendency toward disorder, decay, dissipation, noise, and loss of coherence.",
+    "status": "ACTIVE",
+    "language": "en",
+    "aliases": [],
+    "tags": ["decay", "disorder", "noise"],
+    "data": {
+      "rank": 20,
+      "radionicInfluence": true
+    },
+    "source": {
+      "type": "author",
+      "reference": "Original classification by package author."
+    }
+  },
+  {
+    "id": "isuret.level.physical",
+    "type": "LEVEL",
+    "key": "PHYSICAL",
+    "name": "Physical",
+    "description": "The dense material level of body, substance, structure, chemistry, and measurable form.",
+    "status": "ACTIVE",
+    "language": "en",
+    "aliases": ["Material"],
+    "tags": ["body", "matter", "structure"],
+    "data": {
+      "rank": 30,
+      "radionicInfluence": true
+    },
+    "source": {
+      "type": "author",
+      "reference": "Original classification by package author."
+    }
+  },
+  {
+    "id": "isuret.level.vital",
+    "type": "LEVEL",
+    "key": "VITAL",
+    "name": "Vital",
+    "description": "The basic life-force level that animates living systems and sustains growth, repair, and vitality.",
+    "status": "ACTIVE",
+    "language": "en",
+    "aliases": ["Life Force"],
+    "tags": ["life-force", "vitality", "repair"],
+    "data": {
+      "rank": 40,
+      "radionicInfluence": true
+    },
+    "source": {
+      "type": "author",
+      "reference": "Original classification by package author."
+    }
+  },
+  {
+    "id": "isuret.level.bioenergetic",
+    "type": "LEVEL",
+    "key": "BIOENERGETIC",
+    "name": "Bioenergetic",
+    "description": "The organised energetic activity of the living body, including flow, charge, tension, rhythm, and regulation.",
+    "status": "ACTIVE",
+    "language": "en",
+    "aliases": [],
+    "tags": ["flow", "charge", "regulation"],
+    "data": {
+      "rank": 50,
+      "radionicInfluence": true
+    },
+    "source": {
+      "type": "author",
+      "reference": "Original classification by package author."
+    }
+  },
+  {
+    "id": "isuret.level.etheric",
+    "type": "LEVEL",
+    "key": "ETHERIC",
+    "name": "Etheric",
+    "description": "The subtle formative field that holds the energetic blueprint of the body or object.",
+    "status": "ACTIVE",
+    "language": "en",
+    "aliases": ["Etheric Field"],
+    "tags": ["blueprint", "formative-field", "subtle-body"],
+    "data": {
+      "rank": 60,
+      "radionicInfluence": true
+    },
+    "source": {
+      "type": "author",
+      "reference": "Original classification by package author."
+    }
+  },
+  {
+    "id": "isuret.level.quantum",
+    "type": "LEVEL",
+    "key": "QUANTUM",
+    "name": "Quantum",
+    "description": "The level of probability, potentiality, uncertainty, subtle correlation, and non-local interaction.",
+    "status": "ACTIVE",
+    "language": "en",
+    "aliases": [],
+    "tags": ["probability", "potentiality", "non-locality"],
+    "data": {
+      "rank": 70,
+      "radionicInfluence": true,
+      "specialRole": "transition"
+    },
+    "source": {
+      "type": "author",
+      "reference": "Original classification by package author."
+    }
+  },
+  {
+    "id": "isuret.level.aether",
+    "type": "LEVEL",
+    "key": "AETHER",
+    "name": "Aether",
+    "description": "The universal carrier-field through which subtle information, resonance, and formative influence may travel.",
+    "status": "ACTIVE",
+    "language": "en",
+    "aliases": ["Ether", "Aetheric Field"],
+    "tags": ["carrier-field", "resonance", "subtle-information"],
+    "data": {
+      "rank": 80,
+      "radionicInfluence": true
+    },
+    "source": {
+      "type": "author",
+      "reference": "Original classification by package author."
+    }
+  },
+  {
+    "id": "isuret.level.astral",
+    "type": "LEVEL",
+    "key": "ASTRAL",
+    "name": "Astral",
+    "description": "The imaginal and emotional level of dreams, desires, fears, impressions, symbols, and reactive patterns.",
+    "status": "ACTIVE",
+    "language": "en",
+    "aliases": ["Astral Plane"],
+    "tags": ["emotion", "dream", "imaginal"],
+    "data": {
+      "rank": 90,
+      "radionicInfluence": true
+    },
+    "source": {
+      "type": "author",
+      "reference": "Original classification by package author."
+    }
+  },
+  {
+    "id": "isuret.level.psychic",
+    "type": "LEVEL",
+    "key": "PSYCHIC",
+    "name": "Psychic",
+    "description": "The level of sensitivity, intuitive perception, telepathic impression, and subtle resonance between minds or fields.",
+    "status": "ACTIVE",
+    "language": "en",
+    "aliases": [],
+    "tags": ["sensitivity", "intuition", "subtle-perception"],
+    "data": {
+      "rank": 100,
+      "radionicInfluence": true
+    },
+    "source": {
+      "type": "author",
+      "reference": "Original classification by package author."
+    }
+  },
+  {
+    "id": "isuret.level.mental",
+    "type": "LEVEL",
+    "key": "MENTAL",
+    "name": "Mental",
+    "description": "The level of thought, language, belief, concept, attention, interpretation, and conscious patterning.",
+    "status": "ACTIVE",
+    "language": "en",
+    "aliases": [],
+    "tags": ["thought", "belief", "language"],
+    "data": {
+      "rank": 110,
+      "radionicInfluence": true
+    },
+    "source": {
+      "type": "author",
+      "reference": "Original classification by package author."
+    }
+  },
+  {
+    "id": "isuret.level.archetypal",
+    "type": "LEVEL",
+    "key": "ARCHETYPAL",
+    "name": "Archetypal",
+    "description": "The level of primordial images, mythic structures, collective patterns, symbols, and deep formative ideas.",
+    "status": "ACTIVE",
+    "language": "en",
+    "aliases": ["Archetypical"],
+    "tags": ["archetype", "myth", "symbol"],
+    "data": {
+      "rank": 120,
+      "radionicInfluence": true
+    },
+    "source": {
+      "type": "author",
+      "reference": "Original classification by package author."
+    }
+  },
+  {
+    "id": "isuret.level.causal",
+    "type": "LEVEL",
+    "key": "CAUSAL",
+    "name": "Causal",
+    "description": "The level of hidden causes, root patterns, deep intentions, karmic tendencies, and ordering principles.",
+    "status": "ACTIVE",
+    "language": "en",
+    "aliases": [],
+    "tags": ["cause", "root-pattern", "ordering-principle"],
+    "data": {
+      "rank": 130,
+      "radionicInfluence": true
+    },
+    "source": {
+      "type": "author",
+      "reference": "Original classification by package author."
+    }
+  },
+  {
+    "id": "isuret.level.noetic",
+    "type": "LEVEL",
+    "key": "NOETIC",
+    "name": "Noetic",
+    "description": "The level of direct knowing, higher insight, spiritual intelligence, and luminous comprehension.",
+    "status": "ACTIVE",
+    "language": "en",
+    "aliases": [],
+    "tags": ["insight", "direct-knowing", "spiritual-intelligence"],
+    "data": {
+      "rank": 140,
+      "radionicInfluence": true,
+      "upperOperationalLimit": true
+    },
+    "source": {
+      "type": "author",
+      "reference": "Original classification by package author."
+    }
+  }
+]
