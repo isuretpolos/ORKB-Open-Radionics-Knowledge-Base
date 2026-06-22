@@ -1,0 +1,236 @@
+[
+  {
+    "id": "rel.isuret.level.physical.contains.vitamins",
+    "from": "isuret.level.physical",
+    "relation": "contains_domain",
+    "to": "isuret.domain.vitamins",
+    "weight": 0.95,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.physical.contains.minerals",
+    "from": "isuret.level.physical",
+    "relation": "contains_domain",
+    "to": "isuret.domain.minerals",
+    "weight": 0.95,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.physical.contains.trace_elements",
+    "from": "isuret.level.physical",
+    "relation": "contains_domain",
+    "to": "isuret.domain.trace_elements",
+    "weight": 0.9,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.physical.contains.organs",
+    "from": "isuret.level.physical",
+    "relation": "contains_domain",
+    "to": "isuret.domain.organs",
+    "weight": 0.9,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.physical.contains.tissues",
+    "from": "isuret.level.physical",
+    "relation": "contains_domain",
+    "to": "isuret.domain.tissues",
+    "weight": 0.85,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.vital.contains.herbs",
+    "from": "isuret.level.vital",
+    "relation": "contains_domain",
+    "to": "isuret.domain.herbs",
+    "weight": 0.75,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.vital.contains.homeopathy",
+    "from": "isuret.level.vital",
+    "relation": "contains_domain",
+    "to": "isuret.domain.homeopathy",
+    "weight": 0.8,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.bioenergetic.contains.homeopathy",
+    "from": "isuret.level.bioenergetic",
+    "relation": "contains_domain",
+    "to": "isuret.domain.homeopathy",
+    "weight": 0.85,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.bioenergetic.contains.chakras",
+    "from": "isuret.level.bioenergetic",
+    "relation": "contains_domain",
+    "to": "isuret.domain.chakras",
+    "weight": 0.75,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.etheric.contains.chakras",
+    "from": "isuret.level.etheric",
+    "relation": "contains_domain",
+    "to": "isuret.domain.chakras",
+    "weight": 0.9,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.etheric.contains.symbols",
+    "from": "isuret.level.etheric",
+    "relation": "contains_domain",
+    "to": "isuret.domain.symbols",
+    "weight": 0.65,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.aether.contains.elements",
+    "from": "isuret.level.aether",
+    "relation": "contains_domain",
+    "to": "isuret.domain.elements",
+    "weight": 0.85,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.aether.contains.planets",
+    "from": "isuret.level.aether",
+    "relation": "contains_domain",
+    "to": "isuret.domain.planets",
+    "weight": 0.7,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.aether.contains.symbols",
+    "from": "isuret.level.aether",
+    "relation": "contains_domain",
+    "to": "isuret.domain.symbols",
+    "weight": 0.75,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.astral.contains.bach_flowers",
+    "from": "isuret.level.astral",
+    "relation": "contains_domain",
+    "to": "isuret.domain.bach_flowers",
+    "weight": 0.95,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.astral.contains.emotions",
+    "from": "isuret.level.astral",
+    "relation": "contains_domain",
+    "to": "isuret.domain.emotions",
+    "weight": 0.95,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.astral.contains.homeopathy",
+    "from": "isuret.level.astral",
+    "relation": "contains_domain",
+    "to": "isuret.domain.homeopathy",
+    "weight": 0.8,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.astral.contains.symbols",
+    "from": "isuret.level.astral",
+    "relation": "contains_domain",
+    "to": "isuret.domain.symbols",
+    "weight": 0.7,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.psychic.contains.emotions",
+    "from": "isuret.level.psychic",
+    "relation": "contains_domain",
+    "to": "isuret.domain.emotions",
+    "weight": 0.75,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.psychic.contains.symbols",
+    "from": "isuret.level.psychic",
+    "relation": "contains_domain",
+    "to": "isuret.domain.symbols",
+    "weight": 0.8,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.mental.contains.beliefs",
+    "from": "isuret.level.mental",
+    "relation": "contains_domain",
+    "to": "isuret.domain.beliefs",
+    "weight": 0.95,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.mental.contains.symbols",
+    "from": "isuret.level.mental",
+    "relation": "contains_domain",
+    "to": "isuret.domain.symbols",
+    "weight": 0.7,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.archetypal.contains.archetypes",
+    "from": "isuret.level.archetypal",
+    "relation": "contains_domain",
+    "to": "isuret.domain.archetypes",
+    "weight": 0.98,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.archetypal.contains.planets",
+    "from": "isuret.level.archetypal",
+    "relation": "contains_domain",
+    "to": "isuret.domain.planets",
+    "weight": 0.8,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.causal.contains.archetypes",
+    "from": "isuret.level.causal",
+    "relation": "contains_domain",
+    "to": "isuret.domain.archetypes",
+    "weight": 0.75,
+    "status": "ACTIVE",
+    "data": {}
+  },
+  {
+    "id": "rel.isuret.level.causal.contains.beliefs",
+    "from": "isuret.level.causal",
+    "relation": "contains_domain",
+    "to": "isuret.domain.beliefs",
+    "weight": 0.65,
+    "status": "ACTIVE",
+    "data": {}
+  }
+]
