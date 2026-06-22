@@ -1,0 +1,65 @@
+[
+  {
+    "id": "isuret.profile.standard_level_drilldown",
+    "name": "Standard Level Drilldown",
+    "description": "Identify the strongest level, follow its domains, then scan entries inside those domains.",
+    "status": "ACTIVE",
+    "config": {
+      "entrySelection": {
+        "enabledPackages": "PROFILE_SELECTED",
+        "includeInactive": false
+      },
+      "steps": [
+        {
+          "id": "identify_level",
+          "name": "Identify Level",
+          "scan": {
+            "entryTypes": ["LEVEL"],
+            "limit": 1
+          }
+        },
+        {
+          "id": "find_domains",
+          "name": "Find Related Domains",
+          "fromStep": "identify_level",
+          "traverse": {
+            "relationTypes": ["contains_domain"],
+            "direction": "outgoing",
+            "targetTypes": ["DOMAIN"],
+            "limit": 20
+          }
+        },
+        {
+          "id": "scan_domain_entries",
+          "name": "Scan Domain Entries",
+          "fromStep": "find_domains",
+          "traverse": {
+            "relationTypes": ["belongs_to_domain"],
+            "direction": "incoming",
+            "targetTypes": [
+              "REMEDY",
+              "SUBSTANCE",
+              "SYMBOL",
+              "ARCHETYPE",
+              "CONCEPT",
+              "ORGAN",
+              "SYSTEM",
+              "EMOTION",
+              "PATHOLOGY",
+              "MODALITY",
+              "RATE",
+              "CUSTOM"
+            ],
+            "limit": 100
+          }
+        }
+      ],
+      "result": {
+        "includeSourcePackage": true,
+        "includeAuthor": true,
+        "includeRelations": true,
+        "sortBy": "score"
+      }
+    }
+  }
+]
