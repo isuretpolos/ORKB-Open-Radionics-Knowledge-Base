@@ -1,5 +1,3 @@
-// src-tauri/src/db.rs
-
 use crate::db_model::{DbEntry, DbPackage, DbRelation};
 use anyhow::Result;
 use sqlx::{sqlite::SqliteConnectOptions, Row, SqliteConnection};
