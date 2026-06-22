@@ -1,0 +1,24 @@
+{
+  "format": "orkb",
+  "formatVersion": "1.0",
+  "packageId": "isuret.core.levels",
+  "name": "Isuret Core Levels",
+  "version": "1.0.0",
+  "author": {
+    "id": "isuret",
+    "name": "Isuret"
+  },
+  "description": "Core metaphysical levels used as the primary diagnostic hierarchy in radionics analysis.",
+  "license": "CC-BY-SA-4.0",
+  "createdAt": "2026-06-22T00:00:00Z",
+  "updatedAt": "2026-06-22T00:00:00Z",
+  "dependencies": [],
+  "tags": [
+    "levels",
+    "radionics",
+    "core"
+  ],
+  "compatibility": {
+    "minimumEngineVersion": "1.0.0"
+  }
+}
