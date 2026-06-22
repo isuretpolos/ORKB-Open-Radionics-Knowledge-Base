@@ -1,0 +1,29 @@
+{
+  "format": "orkb",
+  "formatVersion": "1.0",
+  "packageId": "isuret.core.domains",
+  "name": "Isuret Core Domains",
+  "version": "1.0.0",
+  "author": {
+    "id": "isuret",
+    "name": "Isuret"
+  },
+  "description": "Core domains used to classify entries for radionics analysis.",
+  "license": "CC-BY-SA-4.0",
+  "createdAt": "2026-06-22T00:00:00Z",
+  "updatedAt": "2026-06-22T00:00:00Z",
+  "dependencies": [
+    {
+      "packageId": "isuret.core.levels",
+      "version": ">=1.0.0"
+    }
+  ],
+  "tags": [
+    "domains",
+    "radionics",
+    "core"
+  ],
+  "compatibility": {
+    "minimumEngineVersion": "1.0.0"
+  }
+}
